@@ -42,3 +42,12 @@ h1 {
 .team-member-card img {
 	width: 100%;
 }
+
+@media only screen and (max-width: 768px) {
+	.team-member-card {
+		display: block;
+	}
+	.column-left {
+		width: 100%;
+	}
+}
