@@ -1,0 +1,44 @@
+header img {
+	align-self: center;
+}
+
+ul.team-members {
+	list-style: none;
+	margin: 2rem auto;
+	width: 100%;
+}
+
+.team-member-card {
+	display: flex;
+	flex-direction: row;
+	margin: 2rem auto 3rem auto;
+	width: 100%;
+}
+
+.column-left {
+	width: 30%;
+}
+
+.column-right {
+	flex-grow: 1;
+	padding: 1rem 2rem;
+}
+
+h1 {
+	margin-bottom: 2rem;
+}
+
+.team-member-card h2 {
+	margin-bottom: 0.5rem;
+}
+
+.team-member-card h3 {
+	font-family: 'Bricolage Grotesque', sans-serif;
+	letter-spacing: 0.02em;
+	font-weight: 700;
+	margin-bottom: 1rem;
+}
+
+.team-member-card img {
+	width: 100%;
+}
