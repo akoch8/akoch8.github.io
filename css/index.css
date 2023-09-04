@@ -80,6 +80,31 @@ main {
 	top: -5rem;
 }
 
+main, footer {
+	display: block;
+}
+
+footer {
+	background: #203864;
+	display: flex;
+	min-height: 200px;
+	color: #fff;
+	align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.footer-text:after {
+	content: '';
+	display: block;
+	margin: 0 auto;
+	height: 20px;
+	width: 33%;
+	border-bottom: 1px solid #fff;
+}
+
 h1 {
 	color: #203864;
 	font-size: 6rem;
@@ -149,6 +174,29 @@ img.logo {
 
 .contact-info li {
 	margin-bottom: 1rem;
+}
+
+.contact-info li a {
+	margin-right: 1rem;
+	text-decoration: none;
+}
+
+.contact-info img {
+	width: 2rem;
+}
+
+.contact-info-title {
+	color: #666;
+	margin-bottom: 1rem;
+	margin-top: 2rem;
+}
+
+hr {
+	background: #ddd;
+	border: none;
+	height: 1px;
+	width: 100%;
+	margin: 4rem auto;
 }
 
 iframe {
