@@ -51,4 +51,7 @@ h1 {
 	.column-left {
 		width: 100%;
 	}
+	.column-right {
+		padding: 1rem 0;
+	}
 }
